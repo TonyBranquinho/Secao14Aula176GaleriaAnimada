@@ -24,8 +24,7 @@ section {
     
     box-shadow:  0 4px 8px black;
     background-color: azure;
-    margin-top: 10px;
-    /* outline: 1px solid yellow; */
+    margin-top: 10px;    
     width: 63%;
     gap: 10px;
     padding: 10px;
@@ -39,10 +38,9 @@ section {
 img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     transform: scale(1);
     transition: all .3s ease-in-out;
-    filter: blur(3px);   
+    filter: blur(1px);   
 }
 p {
     background-color: black;
